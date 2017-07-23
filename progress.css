@@ -1,0 +1,29 @@
+#bar {
+    margin-top: 10px;
+    height: 20px;
+    border: 1px solid rgb(211,211,211);
+    line-height: 100px;
+    text-align: center;
+    background-color: rgb(211,211,211);
+    border-radius: 5px;
+  }
+
+  #progress-bar{
+  	margin-top: 2px;
+  	margin-bottom: 2px;
+    height: 14px;
+    border: 1px solid rgb(211,211,211);
+    line-height: 100px;
+    text-align: center;
+    animation-name: progress;
+    animation-duration: 10s;
+    border-radius: 5px;
+    animation-fill-mode: forwards;
+
+  }
+  @-webkit-keyframes progress{
+  	0% {background-color: rgba(44,151,32,0.2); width: 0%;}
+  	25% {background-color: rgba(44,151,32,0.5); width: 25%;}
+  	50% {background-color: rgba(44,151,32,0.7); width: 75%;}
+  	100% {background-color: rgba(44,151,52,1.0); width: 100%;}
+  }
